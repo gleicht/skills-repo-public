@@ -1,6 +1,17 @@
 ---
 name: devague
-description: A surgical de-vaguing pass over a chapter. It finds every vague placeholder word — "something," "thing"/"things," and "shape"/"shapes"/"shaped" — and replaces each with a precise, concrete word so the prose says what it means, then writes a before/after report of every change (the sentence, the word removed, and the word used). It honors prose-style 2.4: it keeps the vague word where vagueness is the point (deliberate mystery or suspense, fixed idioms like "the right thing" or "out of shape," and dialogue), and flags the uncertain rather than guessing. Non-destructive: the edited chapter and the report go to a devague/ folder, promoted only on approval. Use whenever the user wants to remove or replace vague words, cut "something/thing/shape," reduce vagueness, make prose more specific, or run a de-vague or specificity pass on a chapter or book.
+description: >-
+  A surgical de-vaguing pass over a chapter. It finds every vague placeholder word —
+  "something," "thing"/"things," and "shape"/"shapes"/"shaped" — and replaces each with
+  a precise, concrete word so the prose says what it means, then writes a before/after
+  report of every change (the sentence, the word removed, and the word used). It honors
+  prose-style 2.4: it keeps the vague word where vagueness is the point (deliberate
+  mystery or suspense, fixed idioms like "the right thing" or "out of shape," and
+  dialogue), and flags the uncertain rather than guessing. Non-destructive: the edited
+  chapter and the report go to a devague/ folder, promoted only on approval. Use
+  whenever the user wants to remove or replace vague words, cut "something/thing/shape,"
+  reduce vagueness, make prose more specific, or run a de-vague or specificity pass on a
+  chapter or book.
 ---
 
 # Devague

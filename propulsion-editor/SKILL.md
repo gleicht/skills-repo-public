@@ -1,6 +1,19 @@
 ---
 name: propulsion-editor
-description: An active per-chapter propulsion editor. It rewrites a drafted chapter so every sentence pulls the reader to the next, enforcing forward motion line by line: a dramatic question in every scene, causal (therefore/but) progression instead of additive (and then), entering scenes late and leaving early, withheld information, active verbs over stative (was/were/there was/began to), and an unresolved chapter ending. It also enforces "earn the length" — every paragraph must advance the plot or deepen a character, and padding is refocused into story rather than cut, so the chapter keeps or grows its length while every word works. Use whenever the user wants prose that propels, to fix flat or inert writing, make every sentence excite and pull the reader onward, kill filler, or strengthen a chapter's hooks and momentum at the line level. Runs on every chapter in the drafting loop and standalone; the generative counterpart to momentum-editor (which removes drag). Honors the outline, story bible (including the Voice Sample), characters, and prose-style, and never invents plot.
+description: >-
+  An active per-chapter propulsion editor. It rewrites a drafted chapter so every
+  sentence pulls the reader to the next, enforcing forward motion line by line: a
+  dramatic question in every scene, causal (therefore/but) progression instead of
+  additive (and then), entering scenes late and leaving early, withheld information,
+  active verbs over stative (was/were/there was/began to), and an unresolved chapter
+  ending. It also enforces "earn the length" — every paragraph must advance the plot or
+  deepen a character, and padding is refocused into story rather than cut, so the
+  chapter keeps or grows its length while every word works. Use whenever the user wants
+  prose that propels, to fix flat or inert writing, make every sentence excite and pull
+  the reader onward, kill filler, or strengthen a chapter's hooks and momentum at the
+  line level. Runs on every chapter in the drafting loop and standalone; the generative
+  counterpart to momentum-editor (which removes drag). Honors the outline, story bible
+  (including the Voice Sample), characters, and prose-style, and never invents plot.
 ---
 
 # Propulsion Editor

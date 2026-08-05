@@ -1,6 +1,17 @@
 ---
 name: editor-ensemble
-description: Runs a panel of active story editors over one chapter in parallel, then merges the best edit from each into a single stronger chapter. It fans out five editors at once — story, continuity, dialogue, momentum, and voice — each producing its own improved version of the same chapter, then synthesizes one final chapter that takes the strongest change from each, in the book's voice and on canon. Non-destructive: every editor's version and the merge go in an editors/ folder, and the merge is promoted to chapters/ only on approval. It is the editing counterpart of chapter-consensus (which is for drafting). Use whenever the user wants an ensemble or best-of edit of a chapter, to run all the story editors at once and combine their work, or a high-effort polish that needs little manual cleanup. Run it deliberately on the chapters that earn the extra cost (openers, pivotal scenes, climaxes); it is opt-in, not automatic.
+description: >-
+  Runs a panel of active story editors over one chapter in parallel, then merges the
+  best edit from each into a single stronger chapter. It fans out five editors at once —
+  story, continuity, dialogue, momentum, and voice — each producing its own improved
+  version of the same chapter, then synthesizes one final chapter that takes the
+  strongest change from each, in the book's voice and on canon. Non-destructive: every
+  editor's version and the merge go in an editors/ folder, and the merge is promoted to
+  chapters/ only on approval. It is the editing counterpart of chapter-consensus (which
+  is for drafting). Use whenever the user wants an ensemble or best-of edit of a
+  chapter, to run all the story editors at once and combine their work, or a high-effort
+  polish that needs little manual cleanup. Run it deliberately on the chapters that earn
+  the extra cost (openers, pivotal scenes, climaxes); it is opt-in, not automatic.
 ---
 
 # Editor Ensemble

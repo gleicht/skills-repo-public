@@ -1,6 +1,15 @@
 ---
 name: chapter-consensus
-description: Drafts one chapter several ways in parallel, then merges the best of each into a single chapter. By default it fans out SIX chapter-writers at once, one per lens (interiority, pacing, dialogue, sensory, restraint, hook), all obeying the same outline, story bible, characters, and prose-style; then it synthesizes one coherent chapter in the book's voice and hands it to clarity-edit. Use whenever the user wants best-of-N or ensemble drafting, multiple parallel drafts of a chapter, to write a chapter a few ways and combine the strongest parts, a consensus or merge of drafts, or a higher-effort pass on an important chapter. Non-destructive: drafts and the merge go in a consensus/ folder; the merge is promoted to chapters/ only on approval.
+description: >-
+  Drafts one chapter several ways in parallel, then merges the best of each into a
+  single chapter. By default it fans out SIX chapter-writers at once, one per lens
+  (interiority, pacing, dialogue, sensory, restraint, hook), all obeying the same
+  outline, story bible, characters, and prose-style; then it synthesizes one coherent
+  chapter in the book's voice and hands it to clarity-edit. Use whenever the user wants
+  best-of-N or ensemble drafting, multiple parallel drafts of a chapter, to write a
+  chapter a few ways and combine the strongest parts, a consensus or merge of drafts, or
+  a higher-effort pass on an important chapter. Non-destructive: drafts and the merge go
+  in a consensus/ folder; the merge is promoted to chapters/ only on approval.
 ---
 
 # Chapter Consensus

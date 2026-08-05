@@ -1,6 +1,17 @@
 ---
 name: series-bible
-description: Builds and maintains a Series Bible — the cross-book continuity reference (series-bible.md plus a light series.json registry) that sits above the individual book project folders and holds what spans an entire series: the overarching arc, reading order, in-world timeline, recurring cast across books, persistent world canon, a reveal/continuity ledger, and open setups and payoffs. Use whenever a story is or will become a series, sequel, trilogy, or multi-book saga; when the user wants to keep later books from contradicting earlier ones; to track what's been revealed in which book, age a recurring cast across volumes, or plant setups that pay off books later; or to capture a finished book's canon before starting the next. Complements the single-book story-bible (one book's world/voice/plot) and character-dossier (one book's cast) — it owns only the layer that crosses books.
+description: >-
+  Builds and maintains a Series Bible — the cross-book continuity reference
+  (series-bible.md plus a light series.json registry) that sits above the individual
+  book project folders and holds what spans an entire series: the overarching arc,
+  reading order, in-world timeline, recurring cast across books, persistent world canon,
+  a reveal/continuity ledger, and open setups and payoffs. Use whenever a story is or
+  will become a series, sequel, trilogy, or multi-book saga; when the user wants to keep
+  later books from contradicting earlier ones; to track what's been revealed in which
+  book, age a recurring cast across volumes, or plant setups that pay off books later;
+  or to capture a finished book's canon before starting the next. Complements the
+  single-book story-bible (one book's world/voice/plot) and character-dossier (one
+  book's cast) — it owns only the layer that crosses books.
 ---
 
 # Series Bible

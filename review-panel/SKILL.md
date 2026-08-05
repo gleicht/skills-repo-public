@@ -1,6 +1,16 @@
 ---
 name: review-panel
-description: A final pre-publish sanity check: a panel of several independent reviewers each reads the WHOLE manuscript the way human editors and beta readers would, and the skill reports the problems they agree on, ranked by how many reviewers raised each, with a READY / NOT-READY verdict. Reviewers flag plot gaps, logic holes, weak or unfair twists, continuity errors, character inconsistencies, pacing problems, and spelling/grammar. Read-only — it writes review-report.md and never edits the manuscript. Use whenever the user wants a final review, a whole-book or beta-reader or editorial-panel pass, a pre-publish gate, or to find plot holes and proofread before publishing. Distinct from fidelity-review (audits against the plan) and book-editor (which fixes).
+description: >-
+  A final pre-publish sanity check: a panel of several independent reviewers each reads
+  the WHOLE manuscript the way human editors and beta readers would, and the skill
+  reports the problems they agree on, ranked by how many reviewers raised each, with a
+  READY / NOT-READY verdict. Reviewers flag plot gaps, logic holes, weak or unfair
+  twists, continuity errors, character inconsistencies, pacing problems, and
+  spelling/grammar. Read-only — it writes review-report.md and never edits the
+  manuscript. Use whenever the user wants a final review, a whole-book or beta-reader or
+  editorial-panel pass, a pre-publish gate, or to find plot holes and proofread before
+  publishing. Distinct from fidelity-review (audits against the plan) and book-editor
+  (which fixes).
 ---
 
 # Review Panel

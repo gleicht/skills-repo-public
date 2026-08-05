@@ -1,6 +1,17 @@
 ---
 name: developmental-edit
-description: A big-picture structural edit of a drafted book that produces a prioritized revision roadmap — the "editorial letter" a developmental editor sends an author. It reads the whole manuscript against the outline and story bible and proposes structural changes: reorder, cut, merge, or split chapters; expand thin scenes and compress saggy ones; strengthen a weak act break, a soft midpoint, or an unearned ending; sharpen stakes, momentum, character arcs, and the central promise — written to dev-edit-report.md. Use whenever the user wants a developmental or structural edit, an editorial letter, a revision plan or roadmap, big-picture feedback on structure/pacing/arcs/stakes, or help deciding what to cut, move, or expand. Read-only: it proposes the plan; chapter-writer/outline-designer/book-editor execute it. Runs after a full draft, before line editing.
+description: >-
+  A big-picture structural edit of a drafted book that produces a prioritized revision
+  roadmap — the "editorial letter" a developmental editor sends an author. It reads the
+  whole manuscript against the outline and story bible and proposes structural changes:
+  reorder, cut, merge, or split chapters; expand thin scenes and compress saggy ones;
+  strengthen a weak act break, a soft midpoint, or an unearned ending; sharpen stakes,
+  momentum, character arcs, and the central promise — written to dev-edit-report.md. Use
+  whenever the user wants a developmental or structural edit, an editorial letter, a
+  revision plan or roadmap, big-picture feedback on structure/pacing/arcs/stakes, or
+  help deciding what to cut, move, or expand. Read-only: it proposes the plan;
+  chapter-writer/outline-designer/book-editor execute it. Runs after a full draft,
+  before line editing.
 ---
 
 # Developmental Edit

@@ -1,6 +1,17 @@
 ---
 name: style-check
-description: A deterministic, read-only prose-style linter for a manuscript — the scripted companion to prose-style and book-editor. It measures what a tired eye misses: crutch and filler words, perception "filter" verbs, adverb density, sentence-length monotony, word echoes within a paragraph, reading level per chapter against a target, and hard counts of em dashes and stock AI-ism phrases, writing the numbers to style-report.md. Use whenever the user wants a style check, prose diagnostics, a crutch-word / filler-word / adverb / cliché scan, a readability or reading-level check, to find overused or repeated words, or objective style metrics before editing. It reports and never edits — fixes go to book-editor or the author. A read-only diagnostic in the book-machine Edit stage, like the deduplicator; works standalone on any folder of chapters.
+description: >-
+  A deterministic, read-only prose-style linter for a manuscript — the scripted
+  companion to prose-style and book-editor. It measures what a tired eye misses: crutch
+  and filler words, perception "filter" verbs, adverb density, sentence-length monotony,
+  word echoes within a paragraph, reading level per chapter against a target, and hard
+  counts of em dashes and stock AI-ism phrases, writing the numbers to style-report.md.
+  Use whenever the user wants a style check, prose diagnostics, a crutch-word /
+  filler-word / adverb / cliché scan, a readability or reading-level check, to find
+  overused or repeated words, or objective style metrics before editing. It reports and
+  never edits — fixes go to book-editor or the author. A read-only diagnostic in the
+  book-machine Edit stage, like the deduplicator; works standalone on any folder of
+  chapters.
 ---
 
 # Style Check

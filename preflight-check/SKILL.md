@@ -1,6 +1,18 @@
 ---
 name: preflight-check
-description: A final pre-publish sanity check — a fast, read-only reconciliation pass that confirms a finished book is actually ready before the publishing workflow runs. It checks that every outline chapter has a real, non-empty file in order with no orphans or gaps, that no placeholder or TODO/TK markers remain in the prose, that the metadata is complete (title and author filled — no unsigned book), that the front-matter manifest resolves, and that the prior QA gates closed out — review-panel READY, fidelity-review PASS with no open items — then writes preflight-report.md with a GO / HOLD verdict. Read-only: it reports and hands fixes back to the right skill. Use whenever the user wants a sanity check, a pre-flight or pre-publish check, a final reconciliation or readiness pass, a go/no-go gate, or wants to confirm nothing is left unaddressed before packaging or publishing. Runs after the editing and review gates, just before front-matter, packaging, and publishing prep.
+description: >-
+  A final pre-publish sanity check — a fast, read-only reconciliation pass that confirms
+  a finished book is actually ready before the publishing workflow runs. It checks that
+  every outline chapter has a real, non-empty file in order with no orphans or gaps,
+  that no placeholder or TODO/TK markers remain in the prose, that the metadata is
+  complete (title and author filled — no unsigned book), that the front-matter manifest
+  resolves, and that the prior QA gates closed out — review-panel READY, fidelity-review
+  PASS with no open items — then writes preflight-report.md with a GO / HOLD verdict.
+  Read-only: it reports and hands fixes back to the right skill. Use whenever the user
+  wants a sanity check, a pre-flight or pre-publish check, a final reconciliation or
+  readiness pass, a go/no-go gate, or wants to confirm nothing is left unaddressed
+  before packaging or publishing. Runs after the editing and review gates, just before
+  front-matter, packaging, and publishing prep.
 ---
 
 # Preflight Check

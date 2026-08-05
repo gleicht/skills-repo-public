@@ -1,6 +1,17 @@
 ---
 name: dialogue-pass
-description: A focused craft review of a book's dialogue — deeper on speech than book-editor's holistic pass. It reads the conversations across the manuscript and reports where character voices blur together, where speech sounds stiff or on-the-nose, where dialogue tags and action beats are mishandled (said-bookisms, adverb-laden tags, tag/beat imbalance), where exposition is dumped into talk, and where formatting or dialect is inconsistent — writing the findings to dialogue-report.md. Use whenever the user wants a dialogue pass, to review or sharpen dialogue, check that characters sound distinct, fix stilted or expository conversation, or clean up dialogue tags and beats. Read-only: it diagnoses and suggests; book-editor or the author makes the changes. A focused craft review in the book-machine Edit stage; works standalone on any folder of chapters.
+description: >-
+  A focused craft review of a book's dialogue — deeper on speech than book-editor's
+  holistic pass. It reads the conversations across the manuscript and reports where
+  character voices blur together, where speech sounds stiff or on-the-nose, where
+  dialogue tags and action beats are mishandled (said-bookisms, adverb-laden tags,
+  tag/beat imbalance), where exposition is dumped into talk, and where formatting or
+  dialect is inconsistent — writing the findings to dialogue-report.md. Use whenever the
+  user wants a dialogue pass, to review or sharpen dialogue, check that characters sound
+  distinct, fix stilted or expository conversation, or clean up dialogue tags and beats.
+  Read-only: it diagnoses and suggests; book-editor or the author makes the changes. A
+  focused craft review in the book-machine Edit stage; works standalone on any folder of
+  chapters.
 ---
 
 # Dialogue Pass
