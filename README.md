@@ -10,7 +10,7 @@ The whole suite as a phased pipeline:
 
 **New here?** Read [GETTING-STARTED.md](GETTING-STARTED.md) for the walkthrough, or [SKILLS.md](SKILLS.md) for a full description of every skill and what each skill folder contains.
 
-**Just want the files?** [**Download `book-machine-skills.zip`**](https://github.com/gleicht/skills-repo-public/raw/main/book-machine-skills.zip) — all 37 skills in one archive, ~486 KB, starts downloading immediately. See [Installing](#installing).
+**Just want the files?** [**Download `document-creation-workflow.zip`**](https://github.com/gleicht/skills-repo-public/raw/main/document-creation-workflow.zip) — all 37 skills plus the skill map in one archive, ~501 KB, starts downloading immediately. See [Installing](#installing).
 
 ## The skills
 
@@ -88,10 +88,10 @@ These are **personal Claude Code skills**, so they must live in the personal ski
 
 Three ways to install:
 
-1. **Download the archive** — [**`book-machine-skills.zip`**](https://github.com/gleicht/skills-repo-public/raw/main/book-machine-skills.zip) (~486 KB, all 37 skills, no git required). Unzip it and copy the contents of the `book-machine-skills/` folder into your skills directory:
+1. **Download the archive** — [**`document-creation-workflow.zip`**](https://github.com/gleicht/skills-repo-public/raw/main/document-creation-workflow.zip) (~501 KB, all 37 skills plus the skill map, no git required). Unzip it and copy the contents of the `document-creation-workflow/` folder into your skills directory:
    ```bash
-   unzip book-machine-skills.zip
-   cp -r book-machine-skills/* ~/.claude/skills/
+   unzip document-creation-workflow.zip
+   cp -r document-creation-workflow/* ~/.claude/skills/
    ```
 2. **Clone into the skills folder** (if it's empty):
    ```bash
@@ -99,8 +99,8 @@ Three ways to install:
    ```
 3. **Or clone elsewhere and copy the skill folders** into `~/.claude/skills/`:
    ```bash
-   git clone <this-repo-url> book-machine-skills
-   cp -r book-machine-skills/* ~/.claude/skills/   # copy the skill folders
+   git clone <this-repo-url> document-creation-workflow
+   cp -r document-creation-workflow/* ~/.claude/skills/   # copy the skill folders
    ```
 
 You do not need every skill. Each folder is self-contained, so copy only the ones you want; `prose-style` and `book-machine` are the two most worth taking.
