@@ -1,0 +1,95 @@
+<svg width="680" height="1020" viewBox="0 0 680 1020" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Book machine skill suite — phased pipeline</title>
+<desc>The book-machine orchestrator runs a phased pipeline across 34 skills: framing / always-on (book-machine, prose-style, series-bible, and an audit log that records every skill run); 1 Foundations (project-research, character-dossier, story-bible, outline-designer); 2 Draft (chapter-writer or chapter-consensus, then clarity-edit and propulsion-editor auto-fire on each draft); opt-in per-chapter passes (devague, and editor-ensemble which fans out five active editors — story, continuity, dialogue, momentum, voice — and merges the best of each); 3 Edit (developmental-edit, book-editor, chapter-transition, dialogue-pass); 4 Diagnostics read-only scans (style-check, deduplicator, ai-detection); 5 Verify gates (fidelity-review, review-panel, preflight-check); 6 Publishing prep (front-matter, back-cover-blurb, amazon-book-categorizer, cover-designer to midjourney-images); 7 Package (epub, docx, pdf). chapter-consensus drafts with six lenses (interiority, pacing, dialogue, sensory, restraint, hook), N=6 by default.</desc>
+<style>
+  text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .t  { font-size: 14px; font-weight: 600; fill: #1a1a1a; }
+  .ts { font-size: 12px; font-weight: 400; fill: #5F5E5A; }
+  .c-gray rect,   rect.c-gray   { fill: #F1EFE8; stroke: #5F5E5A; stroke-width: 1.2; }
+  .c-gray   .t { fill: #2C2C2A; } .c-gray   .ts { fill: #5F5E5A; }
+  .c-purple rect, rect.c-purple { fill: #EEEDFE; stroke: #534AB7; stroke-width: 1.2; }
+  .c-purple .t { fill: #26215C; } .c-purple .ts { fill: #534AB7; }
+  .c-teal rect,   rect.c-teal   { fill: #E1F5EE; stroke: #0F6E56; stroke-width: 1.2; }
+  .c-teal   .t { fill: #04342C; } .c-teal   .ts { fill: #0F6E56; }
+  .c-pink rect,   rect.c-pink   { fill: #FBEAF0; stroke: #993556; stroke-width: 1.2; }
+  .c-pink   .t { fill: #4B1528; } .c-pink   .ts { fill: #993556; }
+</style>
+<defs>
+<marker id="ar" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#888780"/></marker>
+</defs>
+<rect width="680" height="1020" fill="#ffffff"/>
+
+<text x="340" y="32" text-anchor="middle" class="ts">orchestrator &amp; always-on</text>
+<g class="c-gray"><rect x="40" y="42" width="135" height="48" rx="8"/><text x="107" y="64" text-anchor="middle" class="t">prose-style</text><text x="107" y="80" text-anchor="middle" class="ts">house style</text></g>
+<g class="c-gray"><rect x="195" y="42" width="135" height="48" rx="8"/><text x="262" y="64" text-anchor="middle" class="t">book-machine</text><text x="262" y="80" text-anchor="middle" class="ts">orchestrates all</text></g>
+<g class="c-gray"><rect x="350" y="42" width="135" height="48" rx="8"/><text x="417" y="64" text-anchor="middle" class="t">series-bible</text><text x="417" y="80" text-anchor="middle" class="ts">cross-book canon</text></g>
+<g class="c-gray"><rect x="505" y="42" width="135" height="48" rx="8"/><text x="572" y="64" text-anchor="middle" class="t">audit-log</text><text x="572" y="80" text-anchor="middle" class="ts">auto · every run</text></g>
+
+<line x1="340" y1="96" x2="340" y2="112" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="340" y="124" text-anchor="middle" class="ts">1 · Foundations — per book</text>
+<g class="c-purple"><rect x="40" y="132" width="135" height="48" rx="8"/><text x="107" y="154" text-anchor="middle" class="t">project-research</text><text x="107" y="170" text-anchor="middle" class="ts">research.md</text></g>
+<g class="c-purple"><rect x="195" y="132" width="135" height="48" rx="8"/><text x="262" y="154" text-anchor="middle" class="t">character-dossier</text><text x="262" y="170" text-anchor="middle" class="ts">characters.json</text></g>
+<g class="c-purple"><rect x="350" y="132" width="135" height="48" rx="8"/><text x="417" y="154" text-anchor="middle" class="t">story-bible</text><text x="417" y="170" text-anchor="middle" class="ts">world · voice · clues</text></g>
+<g class="c-purple"><rect x="505" y="132" width="135" height="48" rx="8"/><text x="572" y="154" text-anchor="middle" class="t">outline-designer</text><text x="572" y="170" text-anchor="middle" class="ts">outline.json</text></g>
+
+<line x1="340" y1="186" x2="340" y2="202" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="340" y="214" text-anchor="middle" class="ts">2 · Draft (per chapter)</text>
+<g class="c-teal"><rect x="40" y="222" width="135" height="48" rx="8"/><text x="107" y="244" text-anchor="middle" class="t">chapter-writer</text><text x="107" y="260" text-anchor="middle" class="ts">chapters/NN-*.md</text></g>
+<g class="c-teal"><rect x="195" y="222" width="135" height="48" rx="8"/><text x="262" y="244" text-anchor="middle" class="t">chapter-consensus</text><text x="262" y="260" text-anchor="middle" class="ts">best-of-6 → merge</text></g>
+<g class="c-teal"><rect x="350" y="222" width="135" height="48" rx="8"/><text x="417" y="244" text-anchor="middle" class="t">clarity-edit</text><text x="417" y="260" text-anchor="middle" class="ts">auto · clarity/</text></g>
+<g class="c-teal"><rect x="505" y="222" width="135" height="48" rx="8"/><text x="572" y="244" text-anchor="middle" class="t">propulsion-editor</text><text x="572" y="260" text-anchor="middle" class="ts">auto · propulsion/</text></g>
+
+<line x1="340" y1="276" x2="340" y2="292" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="340" y="304" text-anchor="middle" class="ts">2b · Opt-in per-chapter — run on the chapters that earn it</text>
+<g class="c-teal"><rect x="40" y="312" width="135" height="44" rx="8"/><text x="107" y="332" text-anchor="middle" class="t">devague</text><text x="107" y="348" text-anchor="middle" class="ts">devague/ · opt-in</text></g>
+<g class="c-teal"><rect x="195" y="312" width="445" height="44" rx="8"/><text x="417" y="332" text-anchor="middle" class="t">editor-ensemble</text><text x="417" y="348" text-anchor="middle" class="ts">fans out the five editors → best-of merge → editors/</text></g>
+<line x1="417" y1="356" x2="417" y2="366" stroke="#888780" stroke-width="1.5"/>
+<g class="c-teal"><rect x="40" y="366" width="110" height="44" rx="8"/><text x="95" y="388" text-anchor="middle" class="t">story</text><text x="95" y="402" text-anchor="middle" class="ts">editor</text></g>
+<g class="c-teal"><rect x="162" y="366" width="110" height="44" rx="8"/><text x="217" y="388" text-anchor="middle" class="t">continuity</text><text x="217" y="402" text-anchor="middle" class="ts">editor</text></g>
+<g class="c-teal"><rect x="284" y="366" width="110" height="44" rx="8"/><text x="339" y="388" text-anchor="middle" class="t">dialogue</text><text x="339" y="402" text-anchor="middle" class="ts">editor</text></g>
+<g class="c-teal"><rect x="406" y="366" width="110" height="44" rx="8"/><text x="461" y="388" text-anchor="middle" class="t">momentum</text><text x="461" y="402" text-anchor="middle" class="ts">editor</text></g>
+<g class="c-teal"><rect x="528" y="366" width="110" height="44" rx="8"/><text x="583" y="388" text-anchor="middle" class="t">voice</text><text x="583" y="402" text-anchor="middle" class="ts">editor</text></g>
+
+<line x1="340" y1="416" x2="340" y2="432" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="340" y="444" text-anchor="middle" class="ts">3 · Edit</text>
+<g class="c-teal"><rect x="40" y="452" width="135" height="48" rx="8"/><text x="107" y="474" text-anchor="middle" class="t">developmental-edit</text><text x="107" y="490" text-anchor="middle" class="ts">dev-edit-report.md</text></g>
+<g class="c-teal"><rect x="195" y="452" width="135" height="48" rx="8"/><text x="262" y="474" text-anchor="middle" class="t">book-editor</text><text x="262" y="490" text-anchor="middle" class="ts">polish · continuity</text></g>
+<g class="c-teal"><rect x="350" y="452" width="135" height="48" rx="8"/><text x="417" y="474" text-anchor="middle" class="t">chapter-transition</text><text x="417" y="490" text-anchor="middle" class="ts">transitions/</text></g>
+<g class="c-teal"><rect x="505" y="452" width="135" height="48" rx="8"/><text x="572" y="474" text-anchor="middle" class="t">dialogue-pass</text><text x="572" y="490" text-anchor="middle" class="ts">dialogue-report.md</text></g>
+
+<line x1="340" y1="506" x2="340" y2="522" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="340" y="534" text-anchor="middle" class="ts">4 · Diagnostics (read-only scans)</text>
+<g class="c-teal"><rect x="118" y="542" width="135" height="48" rx="8"/><text x="185" y="564" text-anchor="middle" class="t">style-check</text><text x="185" y="580" text-anchor="middle" class="ts">style-report.md</text></g>
+<g class="c-teal"><rect x="273" y="542" width="135" height="48" rx="8"/><text x="340" y="564" text-anchor="middle" class="t">deduplicator</text><text x="340" y="580" text-anchor="middle" class="ts">duplicate scan</text></g>
+<g class="c-teal"><rect x="428" y="542" width="135" height="48" rx="8"/><text x="495" y="564" text-anchor="middle" class="t">ai-detection</text><text x="495" y="580" text-anchor="middle" class="ts">reads-as-AI scan</text></g>
+
+<line x1="340" y1="596" x2="340" y2="612" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="340" y="624" text-anchor="middle" class="ts">5 · Verify gates</text>
+<g class="c-teal"><rect x="118" y="632" width="135" height="48" rx="8"/><text x="185" y="654" text-anchor="middle" class="t">fidelity-review</text><text x="185" y="670" text-anchor="middle" class="ts">fidelity-report.md</text></g>
+<g class="c-teal"><rect x="273" y="632" width="135" height="48" rx="8"/><text x="340" y="654" text-anchor="middle" class="t">review-panel</text><text x="340" y="670" text-anchor="middle" class="ts">review-report.md</text></g>
+<g class="c-teal"><rect x="428" y="632" width="135" height="48" rx="8"/><text x="495" y="654" text-anchor="middle" class="t">preflight-check</text><text x="495" y="670" text-anchor="middle" class="ts">GO / HOLD gate</text></g>
+
+<line x1="340" y1="686" x2="340" y2="702" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="340" y="714" text-anchor="middle" class="ts">6 · Publishing prep</text>
+<g class="c-pink"><rect x="40" y="722" width="135" height="48" rx="8"/><text x="107" y="744" text-anchor="middle" class="t">front-matter</text><text x="107" y="760" text-anchor="middle" class="ts">title page · author</text></g>
+<g class="c-pink"><rect x="195" y="722" width="135" height="48" rx="8"/><text x="262" y="744" text-anchor="middle" class="t">back-cover-blurb</text><text x="262" y="760" text-anchor="middle" class="ts">blurb.md</text></g>
+<g class="c-pink"><rect x="350" y="722" width="135" height="48" rx="8"/><text x="417" y="739" text-anchor="middle" class="t">amazon-book-</text><text x="417" y="752" text-anchor="middle" class="t">categorizer</text><text x="417" y="765" text-anchor="middle" class="ts">amazon-categories.md</text></g>
+<g class="c-pink"><rect x="505" y="722" width="135" height="48" rx="8"/><text x="572" y="744" text-anchor="middle" class="t">cover-designer</text><text x="572" y="760" text-anchor="middle" class="ts">cover-brief.md</text></g>
+
+<line x1="572" y1="772" x2="572" y2="784" stroke="#888780" stroke-width="1.5" stroke-dasharray="3 3" marker-end="url(#ar)"/>
+<g class="c-gray"><rect x="505" y="786" width="135" height="44" rx="8" stroke-dasharray="4 3"/><text x="572" y="806" text-anchor="middle" class="t">midjourney-images</text><text x="572" y="821" text-anchor="middle" class="ts">external · cover art</text></g>
+
+<line x1="340" y1="776" x2="340" y2="792" stroke="#888780" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="340" y="850" text-anchor="middle" class="ts">7 · Package</text>
+<g class="c-pink"><rect x="118" y="858" width="135" height="48" rx="8"/><text x="185" y="880" text-anchor="middle" class="t">epub-packager</text><text x="185" y="896" text-anchor="middle" class="ts">.epub</text></g>
+<g class="c-pink"><rect x="273" y="858" width="135" height="48" rx="8"/><text x="340" y="880" text-anchor="middle" class="t">docx-packager</text><text x="340" y="896" text-anchor="middle" class="ts">.docx</text></g>
+<g class="c-pink"><rect x="428" y="858" width="135" height="48" rx="8"/><text x="495" y="880" text-anchor="middle" class="t">pdf-packager</text><text x="495" y="896" text-anchor="middle" class="ts">.pdf · from docx</text></g>
+
+<text x="340" y="916" text-anchor="middle" class="ts">chapter-consensus lenses · N=6 default (all six run in parallel)</text>
+<g class="c-teal"><rect x="40" y="924" width="600" height="52" rx="8"/><text x="340" y="948" text-anchor="middle" class="t">interiority · pacing · dialogue · sensory · restraint · hook</text><text x="340" y="966" text-anchor="middle" class="ts">each draft = one lens; the merge takes the best of all six</text></g>
+
+<rect x="40" y="992" width="14" height="14" rx="3" class="c-gray"/><text x="60" y="1003" class="ts">framing</text>
+<rect x="205" y="992" width="14" height="14" rx="3" class="c-purple"/><text x="225" y="1003" class="ts">sources of truth</text>
+<rect x="370" y="992" width="14" height="14" rx="3" class="c-teal"/><text x="390" y="1003" class="ts">write/edit/verify</text>
+<rect x="535" y="992" width="14" height="14" rx="3" class="c-pink"/><text x="555" y="1003" class="ts">publish &amp; package</text>
+</svg>

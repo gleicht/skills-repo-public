@@ -1,0 +1,18 @@
+# Never commit real credentials. Only email_config.example.json is tracked.
+lib/email_config.json
+
+# Python caches and build scaffolding
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+
+# OS cruft
+Thumbs.db
+.DS_Store
+
+# Anything a skill generates while being tested in place
+dist/
+*.epub
+*.docx
+*.pdf

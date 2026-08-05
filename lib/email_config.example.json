@@ -1,0 +1,9 @@
+{
+  "_comment": "Copy this file to lib/email_config.json (which is gitignored) and fill in your details. For Gmail: turn on 2-Step Verification, then create an App Password (Google Account > Security > App passwords) and use it as smtp_pass — NOT your normal password. Any SMTP provider works; just change host/port.",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "you@gmail.com",
+  "smtp_pass": "your-16-char-app-password",
+  "email_from": "you@gmail.com",
+  "email_to": "where-to-send@example.com"
+}
