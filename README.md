@@ -1,10 +1,10 @@
-# The Book Machine — Claude Code Skills
+# The Document Creation Workflow — Claude Code Skills
 
-A modular "book machine" built as a set of [Claude Code Agent Skills](https://docs.claude.com/en/docs/claude-code/skills). Each stage is its own skill; they hand off to each other through plain files in a shared **book project folder**, so any stage can be run on its own or re-run later.
+A modular "document creation workflow" built as a set of [Claude Code Agent Skills](https://docs.claude.com/en/docs/claude-code/skills). Each stage is its own skill; they hand off to each other through plain files in a shared **book project folder**, so any stage can be run on its own or re-run later.
 
 The whole suite as a phased pipeline:
 
-![Book machine skill map](docs/skill-map.png)
+![Document Creation Workflow skill map](docs/skill-map.png)
 
 *(GitHub previews the PNG above; for the crisp, scalable source see [docs/skill-map.svg](docs/skill-map.svg). Regenerate the PNG from the SVG whenever the diagram changes.)*
 

@@ -1,6 +1,6 @@
-# Welcome to the Book Machine: Onboarding Guide
+# Welcome to the Document Creation Workflow: Onboarding Guide
 
-A practical guide to writing a book with the Book Machine, a suite of modular
+A practical guide to writing a book with the Document Creation Workflow, a suite of modular
 [Claude Code](https://claude.com/claude-code) skills that takes a project from a bare
 idea (or a stack of your own chapters) all the way to a finished EPUB and Word file.
 
@@ -10,9 +10,9 @@ you already know Claude Code, skip to [Quick Start](#quick-start).
 
 ---
 
-## 1. What the Book Machine is
+## 1. What the Document Creation Workflow is
 
-The Book Machine is not a separate app. It is a set of **skills** that live inside
+The Document Creation Workflow is not a separate app. It is a set of **skills** that live inside
 Claude Code. You talk to Claude in plain English, Claude recognizes which stage of
 book-making you are asking for, and it runs the matching skill. There is no website to
 log into, no server to start, and **no API key to configure**. Claude Code itself is
@@ -155,7 +155,7 @@ books** and just say what you want. A few openers that work:
 
 > "Let's write a book. It's a comedic sci-fi novella about a moon base."
 
-> "Run this chapter through the book machine:" *(then paste your chapter)*
+> "Run this chapter through the document creation workflow:" *(then paste your chapter)*
 
 > "Make an outline for a beginner's guide to backyard stargazing, about 10 chapters."
 
@@ -229,7 +229,7 @@ from it, flagging anything it had to guess.
 
 **Step 2: Hand over a chapter.**
 
-> "Run the next chapter through the book machine:" *(paste the chapter)*
+> "Run the next chapter through the document creation workflow:" *(paste the chapter)*
 
 The machine will:
 
