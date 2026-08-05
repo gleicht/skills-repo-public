@@ -10,7 +10,7 @@ The whole suite as a phased pipeline:
 
 **New here?** Read [GETTING-STARTED.md](GETTING-STARTED.md) for the walkthrough, or [SKILLS.md](SKILLS.md) for a full description of every skill and what each skill folder contains.
 
-**Just want the files?** Download [**`book-machine-skills.zip`**](book-machine-skills.zip) — all 37 skills in one archive, ~485 KB. See [Installing](#installing).
+**Just want the files?** [**Download `book-machine-skills.zip`**](https://github.com/gleicht/skills-repo-public/raw/main/book-machine-skills.zip) — all 37 skills in one archive, ~486 KB, starts downloading immediately. See [Installing](#installing).
 
 ## The skills
 
@@ -88,7 +88,7 @@ These are **personal Claude Code skills**, so they must live in the personal ski
 
 Three ways to install:
 
-1. **Download the archive** — [**`book-machine-skills.zip`**](book-machine-skills.zip) (~485 KB, all 37 skills, no git required). Unzip it and copy the contents of the `book-machine-skills/` folder into your skills directory:
+1. **Download the archive** — [**`book-machine-skills.zip`**](https://github.com/gleicht/skills-repo-public/raw/main/book-machine-skills.zip) (~486 KB, all 37 skills, no git required). Unzip it and copy the contents of the `book-machine-skills/` folder into your skills directory:
    ```bash
    unzip book-machine-skills.zip
    cp -r book-machine-skills/* ~/.claude/skills/
