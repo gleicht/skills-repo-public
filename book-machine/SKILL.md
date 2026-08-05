@@ -35,6 +35,9 @@ Every stage agrees on this layout. Read it once; the stage skills assume it.
 ├── clarity/             # (optional) per-chapter clarity report + edited proposal — see clarity-edit skill
 │   ├── NN-slug.report.md
 │   └── NN-slug.edited.md
+├── ai-isms/             # (optional) per-chapter AI-ism report + edited proposal — see ai-ism-editor skill
+│   ├── NN-slug.report.md
+│   └── NN-slug.edited.md
 ├── front-matter/        # (optional) title-page metadata + front/back matter — see front-matter skill
 │   ├── front-matter.json #   manifest: which pieces, front vs back, order
 │   └── dedication.md     #   copyright.md, epigraph.md, about-author.md, …
@@ -145,17 +148,25 @@ outline entries by their `id` prefix.
    lensed chapter-writers in parallel and merges the strongest into one chapter
    (`consensus/NN-slug/merged.md`), promoted to `chapters/` on your OK. Costs ~3× the
    drafting tokens, so reserve it for the chapters that earn it.
-   **Right after each chapter is drafted, two light passes fire on it** (automatically, via
-   the chapters-write hook), and they apply to **every** chapter: **clarity-edit** then
-   **propulsion-editor**. Clarity-edit flags confusing prose — nonsense, wrong vocabulary,
-   failed metaphors, tangled syntax — and writes a clarity-edited proposal to `clarity/`; it
-   never invents meaning, and lines it can't parse go back to the author. Then
+   **Right after each chapter is drafted, three light passes fire on it** (automatically, via
+   the chapters-write hook), and they apply to **every** chapter: **clarity-edit**, then
+   **propulsion-editor**, then **ai-ism-editor**. Clarity-edit flags confusing prose — nonsense,
+   wrong vocabulary, failed metaphors, tangled syntax — and writes a clarity-edited proposal to
+   `clarity/`; it never invents meaning, and lines it can't parse go back to the author. Then
    **propulsion-editor** rewrites the chapter so every sentence pulls: it enforces prose-style
    Part 4 (a dramatic question per scene; causal *therefore/but*, not additive *and then*;
    enter late and leave early; active verbs; an unresolved ending) and **earn the length**
    (every paragraph advances plot or character; padding is refocused into story, not cut, so
-   the chapter keeps or grows its length). It edits from the clarity proposal, so both land in
-   one `propulsion/` proposal, promoted over the draft on the author's OK.
+   the chapter keeps or grows its length). Finally **ai-ism-editor** strips the patterns that
+   make prose read as machine-written — emotion labeling, vague abstraction, stock fiction
+   phrases, clichéd metaphors, filler, reflexive reflective endings, the negation-correction
+   antithesis — using the catalog it owns (`ai-ism-editor/references/ai-isms.md`), while
+   preserving the idiosyncratic, human parts of the voice. Each pass edits from the one before
+   it, so all three land in **one** `ai-isms/` proposal, promoted over the draft on the
+   author's OK.
+
+   Order matters: fix comprehension first, then add pull, then remove the machine tells last,
+   so a de-AI-ing pass gets the final word on any phrasing the earlier rewrites introduced.
 
 5. **Edit.** Work big-picture first, then line-level. This whole stage is optional but
    recommended; offer it and skip what the draft doesn't need.
@@ -249,8 +260,8 @@ outline entries by their `id` prefix.
   a safe, rule-compliant mean, and voice is the first thing it costs. Run the minimum the
   draft actually needs, not the maximum the suite offers. The five-editor **editor-ensemble**
   is opt-in for the chapters that earn it, not an every-chapter default; a freshly drafted
-  chapter gets the two light passes that apply to every chapter, **clarity-edit** then
-  **propulsion-editor**. Reach for the full ensemble when a chapter is genuinely weak, not by
+  chapter gets the three light passes that apply to every chapter, **clarity-edit**,
+  **propulsion-editor**, then **ai-ism-editor**. Reach for the full ensemble when a chapter is genuinely weak, not by
   reflex. A book run through every available pass comes out cleaner
   and flatter than one that got the few passes it needed.
 - **Files are the interface.** Everything a stage needs is on disk. If the user

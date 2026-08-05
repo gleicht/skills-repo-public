@@ -5,13 +5,13 @@ folder. Each skill is a directory containing a `SKILL.md` (the instructions Clau
 reads) and, where the work benefits from being deterministic, a `scripts/` or
 `references/` folder alongside it.
 
-Thirty-six skills, grouped by the stage of the book they serve.
+Thirty-seven skills, grouped by the stage of the book they serve.
 
 | Stage | Skills |
 |---|---|
 | [Orchestration](#orchestration) | book-machine |
 | [Plan and set up](#plan-and-set-up) | project-research, story-bible, character-dossier, series-bible, outline-designer |
-| [Draft](#draft) | chapter-writer, chapter-consensus, chapter-transition, propulsion-editor, clarity-edit, devague |
+| [Draft](#draft) | chapter-writer, chapter-consensus, chapter-transition, propulsion-editor, ai-ism-editor, clarity-edit, devague |
 | [Edit, active](#edit-active) | editor-ensemble, story-editor, continuity-editor, dialogue-editor, momentum-editor, voice-editor, book-editor |
 | [Diagnose and gate, read-only](#diagnose-and-gate-read-only) | style-check, dialogue-pass, deduplicator, developmental-edit, ai-detection, fidelity-review, review-panel, preflight-check |
 | [Prepare to publish](#prepare-to-publish) | front-matter, back-cover-blurb, cover-designer, amazon-book-categorizer |
@@ -160,6 +160,25 @@ removes drag.
 |---|---|---|
 | `SKILL.md` | — | The propulsion rules, the earn-the-length contract, and the rewrite procedure |
 | `scripts/propulsion_flags.py` | 132 | Deterministic propulsion candidates for one chapter or a whole book folder, flagging stative verbs, additive progression, and resolved endings |
+
+### `ai-ism-editor`
+
+The de-machining pass, and the owner of the AI-ism catalog the whole suite cites. It
+rewrites a drafted chapter to strip the patterns that make prose read as generated, hollow
+filler and hedging, signature AI vocabulary, emotion labeling, vague abstraction, stock
+fiction phrases, clichéd metaphors, false profundity, reflexive reflective endings, and the
+negation-correction antithesis, which it cuts by default. The core fix is always the same,
+show rather than tell and choose the concrete detail that belongs only to this scene. It is
+the active counterpart to the read-only `ai-detection` scan. Its hardest constraint is not
+flattening the prose, so idiosyncratic phrasing, subtext, and any line that *is* the voice
+survive the pass. Runs third in the per-draft loop, editing from `propulsion-editor`'s
+output so all three passes land in one proposal.
+
+| File | Lines | What it is |
+|---|---|---|
+| `SKILL.md` | — | The categories, the rewrite procedure, and the preserve-the-human-stuff constraint |
+| `references/ai-isms.md` | 344 | **The complete AI-ism catalog**, nine sections of flag lists, before-and-after rewrites, and diagnostic codes. Every other skill points here |
+| `scripts/ai_ism_flags.py` | 199 | Deterministic candidate scan over vocabulary, stock phrases, filler, participial openings, the negation-correction antithesis, em dashes, and the closing sentence |
 
 ### `clarity-edit`
 
@@ -341,7 +360,9 @@ AI-ism and signature-word density, sentence-initial transitions, hedging, em das
 low lexical diversity, then reports a reads-as-AI, mixed, or reads-as-human band with the
 worst passages, written to `ai-detection-report.md`. Fixes loop back through `prose-style`
 and `book-editor`. It is a heuristic, not a real detector. It cannot run or guarantee any
-commercial detector, though it documents how to run one yourself.
+commercial detector, though it documents how to run one yourself. Its active counterpart is
+`ai-ism-editor`, which does the removal; the natural loop is scan, fix the worst chapters,
+re-scan.
 
 | File | Lines | What it is |
 |---|---|---|
@@ -495,8 +516,7 @@ tell. It applies both to prose the skills generate and to text you hand over for
 
 | File | Lines | What it is |
 |---|---|---|
-| `SKILL.md` | — | The house rules in full |
-| `references/ai-isms.md` | 344 | The complete AI-ism catalog with before-and-after examples |
+| `SKILL.md` | — | The house rules in full. Part 3 summarizes the AI-isms and points at `ai-ism-editor`, which owns the catalog and does the active removal |
 
 ---
 

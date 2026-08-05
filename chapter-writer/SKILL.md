@@ -71,7 +71,8 @@ matches the outline entry (e.g. `03-finding-your-footing.md`). Each file:
   stock phrases like "her breath caught," clichéd metaphors, or generic poetic
   filler), complete-sentence narration paired with realistic, jagged dialogue,
   grade 9–12 readability, and Oxford commas. Show, don't tell. For fiction, scan
-  against its `references/ai-isms.md` before finalizing.
+  against `ai-ism-editor/references/ai-isms.md` before finalizing (the **ai-ism-editor**
+  skill owns that catalog and runs a removal pass on the draft right after).
 - **Obey the Story Bible.** When `story-bible.md` exists, it's law: honor the
   world's rules, write to the Voice & Style Guide (and never use its banned
   expressions), and serve the Plot Structure & Beats for this point in the story

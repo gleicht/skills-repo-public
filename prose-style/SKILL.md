@@ -1,6 +1,6 @@
 ---
 name: prose-style
-description: The user's house writing style — write natural, specific, human prose and strip out AI tells. Replace em dashes with punctuation that names the relationship they signal; avoid AI-ism phrases, vocabulary, and structures ("delve," "it's worth noting," fake balance, emotion-labeling, stock fiction phrases like "her breath caught"); write narration in complete sentences at a grade 9–12 reading level with serial commas; and show rather than tell. Use whenever writing or editing prose for the user — drafting or revising chapters, stories, essays, or any narrative/expository text; cleaning up a passage; removing em dashes; or making writing read less like AI and more like a person. Apply it to prose you generate and to text the user asks you to edit. The full AI-ism catalog with before/after examples is in references/ai-isms.md.
+description: The user's house writing style — write natural, specific, human prose and strip out AI tells. Replace em dashes with punctuation that names the relationship they signal; avoid AI-ism phrases, vocabulary, and structures ("delve," "it's worth noting," fake balance, emotion-labeling, stock fiction phrases like "her breath caught"); write narration in complete sentences at a grade 9–12 reading level with serial commas; and show rather than tell. Use whenever writing or editing prose for the user — drafting or revising chapters, stories, essays, or any narrative/expository text; cleaning up a passage; removing em dashes; or making writing read less like AI and more like a person. Apply it to prose you generate and to text the user asks you to edit. The full AI-ism catalog with before/after examples lives in the ai-ism-editor skill (ai-ism-editor/references/ai-isms.md), which also does the active per-chapter removal.
 ---
 
 # Prose Style (house style)
@@ -15,9 +15,11 @@ Three jobs: (1) replace em dashes with precise punctuation, (2) keep narration i
 clear, complete sentences, and (3) strip out AI-isms so the writing reads like a
 person wrote it.
 
-**When the task is fiction or detailed revision, read `references/ai-isms.md`** for
-the complete flag lists, the diagnostic codes, and before/after examples. This file
-is the operative summary; the reference is the full catalog.
+**When the task is fiction or detailed revision, read
+`<skills-dir>/ai-ism-editor/references/ai-isms.md`** for the complete flag lists, the
+diagnostic codes, and before/after examples. That catalog is owned by the **ai-ism-editor**
+skill, which also performs the active per-chapter removal. This file is the operative
+summary; the reference is the full catalog.
 
 ---
 
@@ -68,7 +70,7 @@ flattening it.
   dramatic punch is a voice choice; keep it (e.g., "The Kirk jaw." or "Three days, no
   word."). The rule targets *accidental* fragments, not crafted ones. **But the
   negation–correction antithesis is not a protected fragment** — cut "Not X. Y." and
-  "It wasn't X. It was Y." by default (see Part 3 and `references/ai-isms.md` §4.15).
+  "It wasn't X. It was Y." by default (see Part 3 and `ai-ism-editor/references/ai-isms.md` §4.15).
   When in doubt about an ordinary fragment, leave it and flag it rather than flattening
   the beat.
 - **Statements, not rhetorical questions** — except in character dialogue.
@@ -98,7 +100,7 @@ flattening it.
   simpler word or a shorter sentence carries the meaning just as well, use it. Keep the
   voice, the tension, and the one idiosyncratic word that is exactly right, but avoid both
   purple prose *and* lifeless, dumbed-down prose, and when in doubt, err plainer. (See
-  Part 3 vocabulary and `references/ai-isms.md` §2.3, §4.3, §4.7.)
+  Part 3 vocabulary and `ai-ism-editor/references/ai-isms.md` §2.3, §4.3, §4.7.)
 - **Kill vague placeholder nouns, especially "something," "thing," and "shape."** First
   choice: name the actual noun the sentence is about. *She grabbed something* → *She grabbed
   the tire iron.* *He did the thing* → say what he did. The vague **"shape"** is its own
@@ -112,7 +114,7 @@ flattening it.
   effect (*something moved in the dark* — don't touch this in suspense); idioms and set
   phrases (*the right thing to do, for one thing, out of shape, in good shape*); dialogue
   and comedic setups that pay off. The target is lazy vagueness, not intentional phrasing.
-  Full lists and examples in `references/ai-isms.md` §2.4.
+  Full lists and examples in `ai-ism-editor/references/ai-isms.md` §2.4.
 - **Reading level: grades 9–12.**
 - **Spelling: American.** Use US spellings: *gray* not *grey*, *color* not *colour*, *toward* not *towards*, *traveled* not *travelled*.
 - **Serial (Oxford) comma:** "fried sugar, livestock, and diesel smoke" — not
@@ -151,9 +153,13 @@ flattening it.
 
 ## Part 3 — Avoid AI-isms
 
-Patterns that make writing read as machine-generated. Scan and rewrite them. The
-**full flag lists and before/after rewrites are in `references/ai-isms.md`** —
-consult it when drafting or revising, especially fiction. Summary of the categories:
+Patterns that make writing read as machine-generated. Scan and rewrite them as you write.
+
+**This part is a summary. The `ai-ism-editor` skill owns this material**, both the full
+catalog (`ai-ism-editor/references/ai-isms.md`, with the flag lists, diagnostic codes, and
+before/after rewrites) and the active per-chapter removal pass, which runs on every draft.
+Consult the catalog when drafting or revising, especially fiction, and run **ai-ism-editor**
+when a chapter needs the patterns taken out rather than merely avoided. Categories:
 
 **Conversational** — overused openers ("Certainly!", "Great question!", "Let's dive
 in"); hollow filler ("It's worth noting that…", "When it comes to…"); restating the
@@ -185,12 +191,14 @@ detail that belongs only to this scene; trust the reader.
 Replace abstraction with visible behavior · replace cliché with a specific
 sound/object/gesture · let action carry emotion · swap tidy insight for a partial
 thought · break rhythmic sameness · loosen dialogue toward natural speech (not staccato) ·
-cut the reflective last sentence (the scene already did the work).
+cut the reflective last sentence (the scene already did the work). Full versions in the
+catalog, §8.
 
 ### Preserve the human stuff
 While removing AI-isms, don't sand off what makes writing alive: idiosyncratic
 phrasing, real subtext, asymmetric dialogue, emotional contradiction, surprising-but-
-precise detail, voice shaped by character, tension that doesn't resolve on cue.
+precise detail, voice shaped by character, tension that doesn't resolve on cue. This is the
+constraint that keeps a de-AI-ing pass from flattening the prose (catalog §7).
 
 ---
 

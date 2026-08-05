@@ -18,7 +18,8 @@ The whole suite as a phased pipeline:
 | `story-bible` | Builds `story-bible.md` — world rules, voice & style guide, plot beats |
 | `series-bible` | Cross-book continuity for a series — `series-bible.md` + `series.json` above the book folders |
 | `character-dossier` | Interviews the user, builds the cast in `characters.json` (name, want, fear, secret) |
-| `prose-style` | The house writing style the suite obeys — em-dash removal + AI-ism avoidance (full catalog in `prose-style/references/ai-isms.md`) |
+| `prose-style` | The house writing style the suite obeys — em-dash removal, sentence rules, AI-ism avoidance (Part 3 summarizes; the catalog lives in `ai-ism-editor/`) |
+| `ai-ism-editor` | Active per-chapter de-AI pass + **owner of the AI-ism catalog** (`references/ai-isms.md`, `scripts/ai_ism_flags.py`) → `ai-isms/` proposal; auto-fires on each draft after propulsion-editor |
 | `project-research` | Captures per-book research/sources into `research.md` (+ `research/`) for the writing to draw on |
 | `fidelity-review` | Verification gate — audits the writing against the sources of truth for drift/hallucination, reports, loops to resolution |
 | `review-panel` | Pre-publish gate — a panel of independent reviewers reads the whole book, reports consensus issues + READY/NOT-READY |

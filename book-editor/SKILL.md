@@ -65,7 +65,9 @@ Then edit the chapter files in place, against this checklist:
   fiction phrases, clichéd sensory metaphors, fake balance, filler, reflexive
   reflective endings), and convert telling into showing. Keep narration in
   complete sentences while leaving dialogue realistically jagged. Use the
-  `references/ai-isms.md` flag lists and diagnostic codes to mark passages.
+  `ai-ism-editor/references/ai-isms.md` flag lists and diagnostic codes to mark
+  passages; for a chapter that needs the patterns actively rewritten out, run the
+  **ai-ism-editor** skill.
 - **Pacing.** Flag chapters that are markedly longer or thinner than their peers;
   balance them if it serves the book.
 
