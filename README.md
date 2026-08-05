@@ -107,3 +107,5 @@ Start a new Claude Code session and the skills register automatically. The packa
 ## License
 
 MIT. See [LICENSE](LICENSE). Use them, fork them, adapt them to your own writing.
+
+The license carries `<YourName>` and `<YourEmail>` placeholders. Replace both with your own details before you publish or redistribute, so the copyright line names a real holder.
